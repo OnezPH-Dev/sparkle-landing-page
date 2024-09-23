@@ -1,0 +1,315 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Oleo+Script+Swash+Caps:wght@400;700&family=Protest+Riot&display=swap');
+:root{
+    --maroon: #931923;
+    --card: #f7f7f7;
+}
+.main{
+    background-color: #fff;
+    position: relative;
+}
+.search::placeholder {
+    color: #fff;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #FFF;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--maroon);
+  }
+header{
+    z-index: 99;
+    height: 150px;
+    position: relative;
+    padding: 0 100px;
+}
+.first-section{
+    width: 100%;
+    height: 800px;
+    background-color: var(--maroon);
+    overflow-x: hidden;
+    position: relative;
+}
+.fwave{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.fwave>img{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.fwave>img.wb{
+    left: 15px;
+}
+.fwave>img.wb-object{
+    bottom: 100px;
+}
+.fwave>img.leftbush2{
+    height: 600px;
+    width: auto;
+    bottom: 100px;
+}
+.fwave>img.leftbush1{
+    height: 400px;
+    width: auto;
+    bottom: 180px;
+}
+.fwave>img.leftcball1{
+    height: 100px;
+    width: auto;
+    bottom: 320px;
+    left: -14px;
+}
+.fwave>img.leftsnow{
+    height: 300px;
+    width: auto;
+    bottom: 70px;
+    left: 50px;
+}
+.fwave>img.leftcball2{
+    height: 150px;
+    width: auto;
+    bottom: 70px;
+    left: 200px;
+}
+.fwave>img.rightbush1{
+    right: 0;
+    height: 300px;
+    width: auto;
+    bottom: 235px;
+    left: auto;
+}
+.fwave>img.rightbush2{
+    right: 0;
+    height: 150px;
+    width: auto;
+    bottom: 205px;
+    left: auto;
+}
+.fwave>img.tree{
+    right: 150px;
+    height: 300px;
+    width: auto;
+    bottom: 205px;
+    left: auto;
+}
+.fwave>img.rightsnow{
+    right: 300px;
+    height: 200px;
+    width: auto;
+    bottom: 170px;
+    left: auto;
+    z-index: 97;
+}
+
+.fwave>img.rptres{
+    right: 0;
+    height: 300px;
+    width: auto;
+    bottom: 140px;
+    left: auto;
+}
+.fwave>img.rightcball1{
+    right: 100px;
+    height: 100px;
+    width: auto;
+    bottom: 160px;
+    left: auto;
+}
+.snbtn{
+    border-radius: 50px;
+    height: 50px;
+    width: 180px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #5ec08f, #52a87d, #46916c, #3a7b5a, #2f654a);
+    color: #fff;
+}
+.snbtn2{
+    border-radius: 50px;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #5ec08f, #52a87d, #46916c, #3a7b5a, #2f654a);
+    color: #fff;
+}
+
+
+.second-section{
+    width: 100%;
+    padding-bottom: 50px;
+    height: auto;
+    position: relative;
+}
+.second-section>center>h1, .fsection>center>h1{
+    transform: translateY(-50px);
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: var(--maroon);
+}
+.btnatc{
+    outline: none;
+    border: none;
+    background-color: var(--maroon);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 30px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+.btnatc.aboutbtn{
+    width: fit-content;
+}
+.therd-section{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tsbgcon{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bgts{
+    position: absolute;
+    top: -140px;
+    left: -20px;
+    width: 103%;
+}
+.theader{
+    color: var(--maroon);
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.tsimgcon{
+    position: relative;
+}
+.pimg1{
+    width: 490px;
+    bottom: -170px;
+    left: 100px;
+    height: auto;
+    position: absolute;
+}
+.pimg2{
+    width: 450px;
+    top: -120px;
+    left: 100px;
+    height: auto;
+    position: absolute;
+}
+
+
+.fsection{
+    width: 100%;
+    padding: 100px 150px;
+}
+.ppcard{
+    /* background-image: url(assets/cardbg.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 50px;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+}
+.bgcardcon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 8;
+}
+.bgc{
+    border-radius: 50px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--card);
+    z-index: 2;
+}
+.bgcs{
+    border-radius: 50px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--maroon);
+    transform: rotate(2deg);
+    z-index: 1;
+}
+.ppcard>.ppcardtext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 44;
+}
+.ppcard>.ppcardtext>h3{
+    color: var(--maroon);
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.ppcard>.ppcardtext>p{
+    text-align: center;
+    font-weight: 600;
+}
+.ppcardimgcon{
+    height: 100px;
+    z-index: 88;
+}
+.ppcardimgcon>img{
+    transform: translateY(-150px);
+   height: 240px;
+   width: auto; 
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-image: url("assets/footerbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 150px 0 150px;
+}
+.fcon{
+    width: 100%;
+    height: 350px;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright > p{
+    color: #fff;
+    margin: 0;
+}
+.copyright > p>b{
+    text-decoration: underline;
+}
